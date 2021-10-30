@@ -6,6 +6,8 @@ import Login from './pages/Login/Login'
 function App() {
   
   const [user, setUser] = React.useState(null);
+
+
   useEffect( ()=>{
     app.auth().onAuthStateChanged((firebaseUser)=>{
       console.log("Existe una sesion iniciada", firebaseUser);
