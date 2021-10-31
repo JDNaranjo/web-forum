@@ -87,7 +87,7 @@ const Login = (props) => {
                 <p className='errorMsg'>{passwordError}</p>
                 <div className="btnContainer">
                     <button type="submit">{registering ? "Registrate" : "Inicia Sesion"}</button>
-                    <span onClick={ ()=> setRegistering(!registering) } >{registering ? "Ya tienes cuenta? Inicia Sesion" : "No tienes cuenta? Registrate"}</span>
+                    <span className="span-style" onClick={ ()=> setRegistering(!registering) } >{registering ? "Ya tienes cuenta? Inicia Sesion" : "No tienes cuenta? Registrate"}</span>
                 </div>
             </form>
         </div>
