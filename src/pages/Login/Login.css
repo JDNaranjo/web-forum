@@ -1,4 +1,4 @@
-button {
+.submit-btn {
   border: none;
   outline: none;
   width: 100%;
@@ -10,7 +10,7 @@ button {
   cursor: pointer;
 }
 
-label {
+.label-title {
   color: white;
   margin: 14px 0;
   display: block;
@@ -18,7 +18,7 @@ label {
   line-height: 1;
 }
 
-h1 {
+.h1-title {
   text-align: center;
   color: white;
   margin: 14px 0;
@@ -27,7 +27,7 @@ h1 {
   line-height: 1;
 }
 
-input {
+.input-login {
   width: 100%;
   border: none;
   outline: none;
@@ -36,12 +36,6 @@ input {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   letter-spacing: 1px;
-}
-
-p {
-  margin: 14px 0 0 0;
-  text-align: left;
-  color: #fff;
 }
 
 .span-style {
@@ -59,14 +53,16 @@ p {
 }
 
 .errorMsg {
-  color: black;
+  margin: 14px 0 0 0;
+  text-align: left;
+  color: #fff;
   font-size: 16px;
 }
 
-body {
+.body-container {
   position: relative;
-  width: 100%;
-  min-height: 80vh;
+  width: 90%;
+  min-height: 70vh;
   padding: 0 20px;
   background-color: white;
   display: flex;
@@ -79,7 +75,7 @@ body {
   padding: 60px;
   margin: -200px auto auto -250px;
   width: 100%;
-  max-width: 520px;
+  max-width: 600px;
   min-height: 500px;
   display: flex;
   flex-direction: column;

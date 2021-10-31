@@ -76,20 +76,22 @@ const Login = (props) => {
     };
 
     return (
-        <div className="container">
-            <h1>{registering ? "Registrate" : "Inicia Sesion"}</h1>
+        <div className="body-container">
+            <div className="container">
+            <h1 className="h1-title">{registering ? "Registrate" : "Inicia Sesion"}</h1>
             <form onSubmit= {submitHandler} >
-                <label htmlFor="email">Correo:</label>
-                <input type="email" id="email" />
+                <label className="label-title" htmlFor="email">Correo:</label>
+                <input className="input-login" type="email" id="email" />
                 <p className='errorMsg'>{emailError}</p>
-                <label htmlFor="password">Contraseña:</label>
-                <input type="password" id="password" />
+                <label className="label-title" htmlFor="password">Contraseña:</label>
+                <input className="input-login" type="password" id="password" />
                 <p className='errorMsg'>{passwordError}</p>
                 <div className="btnContainer">
-                    <button type="submit">{registering ? "Registrate" : "Inicia Sesion"}</button>
+                    <button className="submit-btn" type="submit">{registering ? "Registrate" : "Inicia Sesion"}</button>
                     <span className="span-style" onClick={ ()=> setRegistering(!registering) } >{registering ? "Ya tienes cuenta? Inicia Sesion" : "No tienes cuenta? Registrate"}</span>
                 </div>
             </form>
+        </div>
         </div>
     );
 };

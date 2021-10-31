@@ -1,8 +1,3 @@
-.post-container {
-  left: 250px;
-  display: flex;
-}
-
 .post-editor {
   margin: 1em 20%;
 }
@@ -16,7 +11,7 @@
   margin: 1em 20%;
 }
 
-@media screen {
+@media (max-width: 900px) {
   .post-editor {
     margin: 1em;
   }

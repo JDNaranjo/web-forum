@@ -1,15 +1,9 @@
 import React from 'react'
+import './CreatePost.css'
 
-const CreatePost = () => {
+const CreatePost = (props) => {
     return (
-        <div className='post-container'>
-            <div className='panel panel-default post-editor'>
-                <div className='panel-body'>
-                    <textarea className='form-control post-editor-input'></textarea>
-                    <button className='btn btn-success post-editor-button'>Post</button>
-                </div>
-            </div>
-        </div>
+        <p>Hoal</p>
     )
 }
 
