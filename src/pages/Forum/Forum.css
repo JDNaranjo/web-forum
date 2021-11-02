@@ -4,11 +4,16 @@
 
 .post-editor-button {
   float: right;
+  margin-bottom: 1em;
   margin-top: 1em;
 }
 
 .post-body {
   margin: 1em 20%;
+}
+
+.hr-line {
+  margin-top: 4.5em;
 }
 
 @media (max-width: 900px) {
